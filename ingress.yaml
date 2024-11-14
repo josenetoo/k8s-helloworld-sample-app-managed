@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: hello-world-ing
 spec:
-ingressClassName: nginx
+  ingressClassName: nginx
   rules:
   - http:
       paths:
